@@ -26,26 +26,13 @@ from config import BANNED_USERS
 from strings import get_string
 
 NEXIO = [
-   "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/xvsqrc.jpg",
-    "https://files.catbox.moe/xvsqrc.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-    "https://files.catbox.moe/alq0pu.jpg",
-]
+   "https://files.catbox.moe/ulf5om.jpg",
+"https://files.catbox.moe/c2c4j5.jpg",
+"https://files.catbox.moe/ulf5om.jpg",
+"https://files.catbox.moe/c2c4j5.jpg",
+"https://files.catbox.moe/ulf5om.jpg",
+"https://files.catbox.moe/c2c4j5.jpg",
+"https://files.catbox.moe/ulf5om.jpg",
 
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
