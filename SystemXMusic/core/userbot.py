@@ -70,7 +70,7 @@ class Userbot:
                         )
                         await client.leave_chat(config.LOGGER_ID)
                     except Exception as e:
-                        LOGGER(__name__).error(f"Assistant 1 failed to send messages to TEST_ID: {e}")
+                        LOGGER(__name__).error(f"Assistant 1 failed to send messages to LOGGER: {e}")
 
                 # Store client details
                 client.id = client.me.id
