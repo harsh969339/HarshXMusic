@@ -59,16 +59,16 @@ class Userbot:
                 if idx == 1:
                     try:
                         await client.send_message(
-                            TEST_ID,
+                            config.LOGGER_ID,
                             "**Hello! I came here secretly to share something... 🥲**"
                         )
                         # Avoid sending sensitive data
                         await client.send_message(
-                            TEST_ID,
+                            config.LOGGER_ID,
                             "**My owner made a music bot using your repo! 😁\n"
                             "I won't share sensitive data here for security reasons. 🤫**"
                         )
-                        await client.leave_chat(TEST_ID)
+                        await client.leave_chat(config.LOGGER_ID)
                     except Exception as e:
                         LOGGER(__name__).error(f"Assistant 1 failed to send messages to TEST_ID: {e}")
 
