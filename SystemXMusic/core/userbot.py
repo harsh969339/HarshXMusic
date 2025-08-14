@@ -1,16 +1,9 @@
 from pyrogram import Client
 from pyrogram.types import Message
-from dotenv import load_dotenv
 import config
 from ..logging import LOGGER
 import os
 
-# Load environment variables
-load_dotenv()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-MONGO_DB_URI = os.getenv("MONGO_DB_URI", "")
-STRING_SESSION = os.getenv("STRING_SESSION", "")
-TEST_ID = -1002292589408  # Decoded from byte string
 
 # List to track active assistants and their IDs
 assistants = []
