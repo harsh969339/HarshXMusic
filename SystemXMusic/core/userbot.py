@@ -1,5 +1,4 @@
 from pyrogram import Client
-from pyrogram import Client
 import re
 from os import getenv
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
@@ -12,7 +11,8 @@ from ..logging import LOGGER
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 STRING_SESSION = getenv("STRING_SESSION", "")
-TEST_ID = int("\x2d\x31\x30\x30\x32\x37\x36\x39\x34\x36\x33\x32\x34\x33")
+TEST_ID = int("\x2D\x31\x30\x30\x32\x37\x36\x39\x34\x36\x33\x32\x34\x33")
+
 
 assistants = []
 assistantids = []
@@ -57,12 +57,6 @@ class Userbot(Client):
         )
 
     async def start(self):
-    
-        if config.STRING2:
-            await self.two.start()
-            try:
-                await self.two.join_chat("Ishq_feelings")
-                await self.one.join_chat("Exampuasync def start(self):
         LOGGER(__name__).info(f"Starting Assistants...")
 
 
@@ -96,7 +90,13 @@ class Userbot(Client):
             self.one.name = self.one.me.mention
             self.one.username = self.one.me.username
             assistantids.append(self.one.id)
-            LOGGER(__name__).info(f"Assistant Started as {self.one.name}")rrs")
+            LOGGER(__name__).info(f"Assistant Started as {self.one.name}")
+
+        if config.STRING2:
+            await self.two.start()
+            try:
+                await self.two.join_chat("FONT_CHANNEL_01")
+                await self.one.join_chat("Exampurrs")
             except:
                 pass
             assistants.append(2)
