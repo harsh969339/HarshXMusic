@@ -5,7 +5,7 @@ from SystemXMusic import app
 
 #--------------------------
 
-MUST_JOIN = "lll_BADNAM_BABY_lll"
+MUST_JOIN = "lts_ydv_vikky"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
@@ -26,8 +26,8 @@ async def must_join_channel(app: Client, msg: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/lll_BADNAM_BABY_lll"),
-                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/+Ius6mdxOqpFjNWM9"),
+                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/lts_ydv_vikky"),
+                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/APNA_SYSTEM"),
                             ]
                         ]
                     )
