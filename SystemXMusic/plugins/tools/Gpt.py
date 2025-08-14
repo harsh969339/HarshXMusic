@@ -26,7 +26,7 @@ async def fetch_med_info(client, message):
         reply = f"**ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ :** {e}"
     
     button = InlineKeyboardMarkup(
-        [[InlineKeyboardButton("ᴧηsᴡєʀ ʙʏ", url=f"https://t.me/Jio_savan_music_bot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")]]
+        [[InlineKeyboardButton("ᴧηsᴡєʀ ʙʏ", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")]]
     )
     
     await message.reply_text(reply, reply_markup=button)
@@ -53,7 +53,7 @@ async def fetch_med_info_group(client, message):
         reply = f"**ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ :** {e}"
     
     button = InlineKeyboardMarkup(
-        [[InlineKeyboardButton("ᴧηsᴡєʀ ʙʏ", url=f"https://t.me/MeowxMusicRoBot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")]]
+        [[InlineKeyboardButton("ᴧηsᴡєʀ ʙʏ", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")]]
     )
     
     await message.reply_text(reply, reply_markup=button)
