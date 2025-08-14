@@ -61,7 +61,7 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("https://t.me/+RGcLtFoRqfMwZGI1")
+                await self.one.join_chat("huxgcxzu")
                 await self.one.join_chat("\x45\x78\x61\x6d\x70\x75\x72\x72\x73")
             except:
                 pass
