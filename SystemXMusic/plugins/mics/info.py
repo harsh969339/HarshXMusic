@@ -55,7 +55,7 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "SystemXMusic/assets/SonaINFO.png"
+bg_path = "SystemXMusic/assets/SystemINFO.png"
 font_path = "SystemXMusic/assets/hiroko.ttf"
 
 #
