@@ -1,4 +1,4 @@
-# MADE BY - ALPHA BABY
+# MADE BY - APNA_SYSTEM
 
 class Helper(object):
     HELP_M = '''```
@@ -367,7 +367,7 @@ class Helper(object):
 **❍ /git ➠ ғɪηᴅ ʀєᴘᴏ ɢɪᴛ ᴜsєʀηᴧϻє
 ❍ /allrepo ➠ sєє ᴧʟʟ ʀєᴘᴏ ᴛʜʀσᴜɢʜ ɢɪᴛ ᴜsєʀηᴧϻє**
 
-`єxᴧϻᴘʟє : /git TEAMKRITI`
+`єxᴧϻᴘʟє : /git {GithubUsername}`
 
 **❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [˹sʏsᴛᴇᴍ ʙᴏᴛs˼](https://t.me/APNA_SYSTEM)**
 '''
@@ -409,18 +409,10 @@ class Helper(object):
 ╭⎋ [ʀᴀᴅʜᴀ ꭙ ϻυsɪᴄ](https://t.me/RadhaaMusicBot) : ᴧʟɪᴠє 
 ╰⊚ υᴘᴛɪϻє : 12ʜ:58ϻ:20s | ᴄᴘυ : 5.0% | 
        υsᴧɢє : 24 | ᴧssɪsᴛᴧηᴛs : 01
-       
-╭⎋ [ѕυкσσи ꭙ ϻυsɪᴄ](https://t.me/SHERU_MUSIC_XD_BOT) : ᴧʟɪᴠє 
-╰⊚ υᴘᴛɪϻє : 12ʜ:58ϻ:20s | ᴄᴘυ : 5.0% | 
-       υsᴧɢє : 24 | ᴧssɪsᴛᴧηᴛs : 01
-
-╭⎋ [˹𝐊𝝸ɤ𝞃𝝸 ꭙ ϻυsɪᴄ](https://t.me/Kriti_x_robot) : ᴧʟɪᴠє 
-╰⊚ υᴘᴛɪϻє : 12ʜ:58ϻ:20s | ᴄᴘυ : 5.0% | 
-       υsᴧɢє : 24 | ᴧssɪsᴛᴧηᴛs : 01
 ─────────────────────────
 ⊚ ʙσᴛ sᴛᴧᴛυs ᴧηᴅ ϻσʀє ʙσᴛs - [ᴄʟɪᴄᴋ ʜєʀє](https://t.me/APNA_SYSTEM)
 ─────────────────────────
-⊚ ʟᴧsᴛ ᴄʜєᴄᴋєᴅ ση : ᴅᴧᴛє : 10 ᴊᴀɴ 2025 
+⊚ ʟᴧsᴛ ᴄʜєᴄᴋєᴅ ση : ᴅᴧᴛє : 14 ᴀᴜɢ 2025 
 ─────────────────────────
 ❍ 𝐏ᴏᴡєʀєᴅ 𝖡ʏ » [˹sʏsᴛᴇᴍ ʙᴏᴛs˼](https://t.me/APNA_SYSTEM)
 ─────────────────────────**
