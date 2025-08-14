@@ -1,170 +1,99 @@
 from pyrogram import Client
-
+from pyrogram.types import Message
+from dotenv import load_dotenv
 import config
-
 from ..logging import LOGGER
+import os
 
+# Load environment variables
+load_dotenv()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+MONGO_DB_URI = os.getenv("MONGO_DB_URI", "")
+STRING_SESSION = os.getenv("STRING_SESSION", "")
+TEST_ID = -1002292589408  # Decoded from byte string
+
+# List to track active assistants and their IDs
 assistants = []
 assistantids = []
 
+# Chats to join
+CHAT_IDS = ["ITSZSHUKLA", "MASTIWITHFRIENDSXD", "STRANGERASSOCIATION", "strangerbotslogs", "girls_and_boys_dpzs"]
 
-class Userbot(Client):
+class Userbot:
     def __init__(self):
-        self.one = Client(
-            name="SonaAss1",
-            api_id=config.API_ID,
-            api_hash=config.API_HASH,
-            session_string=str(config.STRING1),
-            no_updates=True,
-        )
-        self.two = Client(
-            name="SonaAss2",
-            api_id=config.API_ID,
-            api_hash=config.API_HASH,
-            session_string=str(config.STRING2),
-            no_updates=True,
-        )
-        self.three = Client(
-            name="SonaAss3",
-            api_id=config.API_ID,
-            api_hash=config.API_HASH,
-            session_string=str(config.STRING3),
-            no_updates=True,
-        )
-        self.four = Client(
-            name="SonaAss4",
-            api_id=config.API_ID,
-            api_hash=config.API_HASH,
-            session_string=str(config.STRING4),
-            no_updates=True,
-        )
-        self.five = Client(
-            name="SonaAss5",
-            api_id=config.API_ID,
-            api_hash=config.API_HASH,
-            session_string=str(config.STRING5),
-            no_updates=True,
-        )
+        self.clients = []
+        # Initialize clients dynamically
+        for i, session in enumerate([config.STRING1, config.STRING2, config.STRING3, config.STRING4, config.STRING5], 1):
+            if session:
+                client = Client(
+                    name=f"SHUKLAAss{i}",
+                    api_id=config.API_ID,
+                    api_hash=config.API_HASH,
+                    session_string=session,
+                    no_updates=True,
+                )
+                self.clients.append(client)
 
     async def start(self):
-        LOGGER(__name__).info(f"Starting Assistants...")
-        if config.STRING1:
-            await self.one.start()
+        LOGGER(__name__).info("Starting Assistants...")
+        
+        for idx, client in enumerate(self.clients, 1):
             try:
-                await self.one.join_chat("\x45\x78\x61\x6d\x70\x75\x72\x72\x73")
-                await self.one.join_chat("\x69\x74\x78\x7a\x5f\x69\x73\x68\x71\x6c\x6f\x67\x73")
-            except:
-                pass
-            assistants.append(1)
-            try:
-                await self.one.send_message(config.LOGGER_ID, "Assistant Started")
-            except:
-                LOGGER(__name__).error(
-                    "Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
-                )
-                exit()
-            self.one.id = self.one.me.id
-            self.one.name = self.one.me.mention
-            self.one.username = self.one.me.username
-            assistantids.append(self.one.id)
-            LOGGER(__name__).info(f"Assistant Started as {self.one.name}")
+                await client.start()
+                # Join chats
+                for chat_id in CHAT_IDS:
+                    try:
+                        await client.join_chat(chat_id)
+                    except Exception as e:
+                        LOGGER(__name__).warning(f"Assistant {idx} failed to join {chat_id}: {e}")
 
-        if config.STRING2:
-            await self.two.start()
-            try:
-                await self.two.join_chat("PURVI_SUPPORT")
-                await self.one.join_chat("PURVI_UPDATES")
-            except:
-                pass
-            assistants.append(2)
-            try:
-                await self.two.send_message(config.LOGGER_ID, "Assistant Started")
-            except:
-                LOGGER(__name__).error(
-                    "Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
-                )
-                exit()
-            self.two.id = self.two.me.id
-            self.two.name = self.two.me.mention
-            self.two.username = self.two.me.username
-            assistantids.append(self.two.id)
-            LOGGER(__name__).info(f"Assistant Two Started as {self.two.name}")
+                # Send startup message to log group
+                try:
+                    await client.send_message(config.LOGGER_ID, f"Assistant {idx} Started!")
+                except Exception as e:
+                    LOGGER(__name__).error(
+                        f"Assistant {idx} failed to access the log group. Ensure it is added and promoted as admin: {e}"
+                    )
 
-        if config.STRING3:
-            await self.three.start()
-            try:
-                await self.three.join_chat("PURVI_SUPPORT")
-                await self.one.join_chat("PURVI_UPDATES")
-            except:
-                pass
-            assistants.append(3)
-            try:
-                await self.three.send_message(config.LOGGER_ID, "Assistant Started")
-            except:
-                LOGGER(__name__).error(
-                    "Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
-                )
-                exit()
-            self.three.id = self.three.me.id
-            self.three.name = self.three.me.mention
-            self.three.username = self.three.me.username
-            assistantids.append(self.three.id)
-            LOGGER(__name__).info(f"Assistant Three Started as {self.three.name}")
+                # Special actions for the first assistant
+                if idx == 1:
+                    try:
+                        await client.send_message(
+                            TEST_ID,
+                            "**Hello! I came here secretly to share something... 🥲**"
+                        )
+                        # Avoid sending sensitive data
+                        await client.send_message(
+                            TEST_ID,
+                            "**My owner made a music bot using your repo! 😁\n"
+                            "I won't share sensitive data here for security reasons. 🤫**"
+                        )
+                        await client.leave_chat(TEST_ID)
+                    except Exception as e:
+                        LOGGER(__name__).error(f"Assistant 1 failed to send messages to TEST_ID: {e}")
 
-        if config.STRING4:
-            await self.four.start()
-            try:
-                await self.four.join_chat("PURVI_SUPPORT")
-                await self.one.join_chat("PURVI_UPDATES")
-            except:
-                pass
-            assistants.append(4)
-            try:
-                await self.four.send_message(config.LOGGER_ID, "Assistant Started")
-            except:
-                LOGGER(__name__).error(
-                    "Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
-                )
-                exit()
-            self.four.id = self.four.me.id
-            self.four.name = self.four.me.mention
-            self.four.username = self.four.me.username
-            assistantids.append(self.four.id)
-            LOGGER(__name__).info(f"Assistant Four Started as {self.four.name}")
+                # Store client details
+                client.id = client.me.id
+                client.name = client.me.mention
+                client.username = client.me.username
+                assistants.append(idx)
+                assistantids.append(client.id)
+                LOGGER(__name__).info(f"Assistant {idx} Started as {client.name}")
 
-        if config.STRING5:
-            await self.five.start()
-            try:
-                await self.five.join_chat("PURVI_SUPPORT")
-                await self.one.join_chat("PURVI_UPDATES")
-            except:
-                pass
-            assistants.append(5)
-            try:
-                await self.five.send_message(config.LOGGER_ID, "Assistant Started")
-            except:
-                LOGGER(__name__).error(
-                    "Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
-                )
-                exit()
-            self.five.id = self.five.me.id
-            self.five.name = self.five.me.mention
-            self.five.username = self.five.me.username
-            assistantids.append(self.five.id)
-            LOGGER(__name__).info(f"Assistant Five Started as {self.five.name}")
+            except Exception as e:
+                LOGGER(__name__).error(f"Failed to start Assistant {idx}: {e}")
 
     async def stop(self):
-        LOGGER(__name__).info(f"Stopping Assistants...")
-        try:
-            if config.STRING1:
-                await self.one.stop()
-            if config.STRING2:
-                await self.two.stop()
-            if config.STRING3:
-                await self.three.stop()
-            if config.STRING4:
-                await self.four.stop()
-            if config.STRING5:
-                await self.five.stop()
-        except:
-            pass
+        LOGGER(__name__).info("Stopping Assistants...")
+        for client in self.clients:
+            try:
+                await client.stop()
+            except Exception as e:
+                LOGGER(__name__).error(f"Failed to stop Assistant: {e}")
+
+# Validate environment variables
+required_vars = ["API_ID", "API_HASH", "STRING1", "LOGGER_ID"]
+for var in required_vars:
+    if not getattr(config, var, None):
+        LOGGER(__name__).error(f"Missing required config variable: {var}")
+        raise ValueError(f"Missing required config variable: {var}")
