@@ -8,7 +8,7 @@ import random
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from urllib.parse import quote
-from SystemMusic import app
+from SystemXMusic import app
 
 D_ANI = ["🔍 Analyzing...", "🔗 Connecting...", "📊 Fetching...", "⚡ Extracting..."]
 P_ANI = [f"📥 [{i*'█'}{(8-i)*'▱'}] {i*12.5}%" for i in range(9)]
