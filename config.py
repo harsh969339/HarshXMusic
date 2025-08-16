@@ -16,7 +16,10 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "SYSTEM")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002487655399))
-OWNER_ID = int(getenv("OWNER_ID", 7548614955))
+# Your User ID.
+OWNER_ID = list(
+    map(int, getenv("OWNER_ID", "").split())
+)  # Input type must be interger
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/OWNERSYSTUMM/SystemXMusic",)
