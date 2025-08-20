@@ -16,6 +16,14 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "SYSTEM")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002487655399))
+# API URL - here
+API_URL = getenv("API_URL", "https://tgmusic.fallenapi.fun")
+
+# API KEY - here
+API_KEY = getenv("API_KEY", None)
+
+# For - downloads
+DOWNLOADS_DIR = "downloads"
 # Your User ID.
 OWNER_ID = int(getenv("OWNER_ID", 7518534563))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
