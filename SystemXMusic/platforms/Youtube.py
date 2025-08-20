@@ -8,10 +8,10 @@ from pyrogram import errors
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
-from PURVIMUSIC import app
-from PURVIMUSIC.logging import LOGGER
-from PURVIMUSIC.utils.database import is_on_off
-from PURVIMUSIC.utils.formatters import time_to_seconds
+from SystemXMusic import app
+from SystemXMusic.logging import LOGGER
+from SystemXMusic.utils.database import is_on_off
+from SystemXMusic.utils.formatters import time_to_seconds
 from config import API_URL, API_KEY, DOWNLOADS_DIR
 
 @dataclass
