@@ -42,7 +42,7 @@ class Helper(object):
 ```
 ❖ єxᴧϻᴘʟє : /google ʜɪɴᴅɪ sᴏɴɢs```
 
-**❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+**❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
     HELP_03 = '''```
@@ -57,7 +57,7 @@ class Helper(object):
 
 **❍ /tts : [ᴛєxᴛ]
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM) **
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport) **
 '''
 
 
@@ -70,7 +70,7 @@ class Helper(object):
 ❍ /groupinfo : ɢєᴛ ʏσᴜʀ ɢʀσᴜᴘ ɪηғσ `ᴇx :- /groupinfo ɢʀᴏᴜᴘ ᴜsᴇʀɴᴀᴍᴇ`
 ❍ /status : ɢєᴛ ʏσᴜʀ ɢʀσᴜᴘ sᴛᴧᴛᴜs
 
-𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -81,9 +81,9 @@ class Helper(object):
 
 ❍ /font [ᴛєxᴛ]**
 ```
-❖ єxᴧϻᴘʟє : /font badnam Baby```
+❖ єxᴧϻᴘʟє : /font Vikky```
 
-**❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM) **
+**❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport) **
 '''
 
     HELP_06 = '''```
@@ -91,7 +91,7 @@ class Helper(object):
 
 **❍ /math ➠ sσʟᴠєs ϻᴧᴛʜєϻᴧᴛɪᴄᴧʟ ᴘʀσʙʟєϻs ᴧηᴅ ǫυᴧᴛɪσηs
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -106,7 +106,7 @@ class Helper(object):
 ❍ /shayari ➠ ʀᴧηᴅσϻ sʜᴧʏᴧʀɪ ᴛᴧɢ 
 ❍ /shstop ⇴ sᴛσᴘ ᴛᴧɢ
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -117,7 +117,7 @@ class Helper(object):
 ❍ /cute ➠ ᴄʜєᴄᴋ ʏσυʀ ᴄυᴛєηєss.
 ❍ /love ➠ ᴧᴅᴅ ᴛᴡᴏ ηᴧϻєs ᴧηᴅ sєє ʟσᴠᴇ ᴘσssɪʙɪʟɪᴛʏ !! `ʟɪᴋᴇ ʀᴧᴊᴧ + sσηᴧ.`
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -131,7 +131,7 @@ class Helper(object):
 
 ❍ /hastag : [ᴛєxᴛ]
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -143,7 +143,7 @@ class Helper(object):
 ❍ /kang ➠ ʀєᴘʟʏ ᴧηʏ sᴛɪᴄᴋєʀ & ᴄʀєᴀᴛє ʏσᴜʀ sᴛɪᴄᴋєʀ ᴘᴧᴄᴋ
 ❍ /st ➠ ғɪηᴅ ᴏʀɪɢɪηᴧʟ sᴛɪᴄᴋєʀ.
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -161,7 +161,7 @@ class Helper(object):
 ❍ /truth [sєηᴅs ᴧ ʀᴧηᴅσϻ ᴛʀυᴛʜ sᴛʀɪηɢ]
 ❍ /dare : [sєηᴅs ᴧ ʀᴧηᴅσϻ ᴅᴧʀє sᴛʀɪηɢ]
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -172,7 +172,7 @@ class Helper(object):
 ❍ /q : ᴄʀєᴧᴛє ᴧ ǫυσᴛє ғʀσϻ ᴛʜє ϻєssᴧɢє
 ❍ /q r : ᴄʀєᴧᴛє ᴧ ǫυσᴛє ғʀσϻ ᴛʜє ϻєssᴧɢє ᴡɪᴛʜ ʀєᴘʟʏ
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -184,7 +184,7 @@ class Helper(object):
 ❍ /truth : sєηᴅs ᴧ ʀᴧηᴅσϻ ᴛʀυᴛʜ sᴛʀɪηɢ
 ❍ /dare : sєηᴅs ᴧ ʀᴧηᴅσϻ ᴅᴧʀє sᴛʀɪηɢ
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -229,7 +229,7 @@ class Helper(object):
 ᴛʜɪs ᴄσϻϻᴧηᴅ ᴡɪʟʟ ᴡσʀᴋ σηʟʏ ɪғ ʏσυ ɢɪᴠє ʙᴧη ʀɪɢʜᴛs ᴛσ ᴛʜє ʙσᴛ ᴡɪᴛʜ ᴧᴅϻɪη```
 
 
-**❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+**❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
     HELP_15 = '''```
@@ -238,7 +238,7 @@ class Helper(object):
 **❍ /kick <userhandle> : ᴋɪᴄᴋs ᴧ υsєʀ συᴛ σғ ᴛʜє ɢʀσυᴘ, (ᴠɪᴧ ʜᴧηᴅʟє, σʀ ʀєᴘʟʏ)
 ❍ /kickme: ᴋɪᴄᴋs ᴛʜє υsєʀ ᴡʜσ ɪssυєᴅ ᴛʜє ᴄσϻϻᴧηᴅ
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -255,7 +255,7 @@ class Helper(object):
 ```
 ᴛʜɪs ᴄσϻϻᴧηᴅ ᴡɪʟʟ ᴡσʀᴋ σηʟʏ ɪғ ʏσυ ɢɪᴠє ʙᴧη ʀɪɢʜᴛs ᴛσ ᴛʜє ʙσᴛ ᴡɪᴛʜ ᴧᴅϻɪη```
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -285,7 +285,7 @@ class Helper(object):
 ❍ /unbanall ➠ ᴜηʙᴧη ᴧʟʟ ʙᴧη ϻєϻʙєʀs
 ❍ /unpinall ➠ ᴜηᴘɪη ᴧʟʟ ᴘɪη ᴍєssᴧɢᴇ**
 
-**❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+**❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -295,7 +295,7 @@ class Helper(object):
 **❍ /staff ➠ ᴅɪsᴘʟᴧʏs ᴛʜє ʟɪsᴛ σғ sᴛᴧғғ ϻєϻʙєʀs
 ❍ /bots ➠ ᴅɪsᴘʟᴧʏs ᴛʜє ʟɪsᴛ σғ ʙσᴛs ɪη ᴛʜє ɢʀσυᴘ
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -307,7 +307,7 @@ class Helper(object):
 ❍ /setphoto ➠ sєᴛs ᴛʜє ɢʀσυᴘ ᴘʜσᴛσ
 ❍ /removephoto ➠ ʀєϻσᴠєs ᴛʜє ɢʀσυᴘ ᴘʜσᴛσ
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -318,7 +318,7 @@ class Helper(object):
 **❍ /zombies ➠ ʀєϻσᴠєs ᴧᴄᴄ ᴅєʟєᴛєᴅ ϻєϻʙєʀs ғʀσϻ ᴛʜє ɢʀσυᴘ
 
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -333,7 +333,7 @@ class Helper(object):
 ❍ /basket [ʙᴧsᴋєᴛʙᴧʟʟ ɢᴧϻє]
 ❍ /football [ғσσᴛʙᴧʟʟ ɢᴧϻє]
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -344,21 +344,21 @@ class Helper(object):
 ❍ /imposter on
 ❍ /imposter off
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
     HELP_23 = '''```
 ❖ sᴧηɢ ϻᴧᴛᴧ ᴄσϻϻᴧηᴅ ❖```
 **❍ /sg ➠ υsєʀ ηᴧϻє ᴧηᴅ υsєʀηᴧϻє ʜɪsᴛσʀʏ
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
     HELP_24 = '''```
 ❖ ᴛʀᴧηsʟᴧᴛєs ❖```
 **❍ /tr ➠ ᴄᴧη ᴛʀᴧηꜱʟᴧᴛє ϻυʟᴛɪᴘʟє ʟᴧηɢυᴧɢєs
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [sʏsᴛᴇᴍ](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ](https://t.me/HarshXSupport)**
 '''
 
 
@@ -369,7 +369,7 @@ class Helper(object):
 
 `єxᴧϻᴘʟє : /git {GithubUsername}`
 
-**❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [˹sʏsᴛᴇᴍ ʙᴏᴛs˼](https://t.me/APNA_SYSTEM)**
+**❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [ʜᴀʀsʜ ʙᴏᴛs˼](https://t.me/HarshXSupport)**
 '''
 
 
@@ -380,7 +380,7 @@ class Helper(object):
 ❍ /tgm [ʀєᴘʟʏ ᴛσ ᴧηʏ ϻєᴅɪᴧ]
 ❍ /tgt [ʀєᴘʟʏ ᴛσ ᴧηʏ ϻєᴅɪᴧ]
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [˹sʏsᴛᴇᴍ ʙᴏᴛs˼](https://t.me/APNA_SYSTEM)**
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [˹ʜᴀʀsʜ ʙᴏᴛs˼](https://t.me/HarshXSupport)**
 '''
     HELP_PROMOTION = '''
 **─────────────────────────
@@ -397,7 +397,7 @@ class Helper(object):
 ─────────────────────────
 ʙєsᴛ ᴧηᴅ ᴄʜєᴧᴘ ɪη ᴛєʟєɢʀᴧϻ ϻєϻʙєʀs ɪη σηє ᴘʀσϻσᴛɪση ɢυʀᴧηᴛєє...
 ─────────────────────────
-❍ ᴄσηᴛᴧᴄᴛ - [˹sʏsᴛᴇᴍ ʙᴏᴛs˼](https://t.me/Its_deep_ydv)
+❍ ᴄσηᴛᴧᴄᴛ - [˹ʜᴀʀsʜ ʙᴏᴛs˼](https://t.me/Its_deep_ydv)
 ─────────────────────────**
 '''
     HELP_ABOUT = '''
@@ -429,9 +429,9 @@ class Helper(object):
 ● ᴇηᴊᴏʏ ғєєʟ ғʀєє ϻᴜsɪᴄ ᴡɪᴛʜ 𝐊ʀɪᴛɪ.
 ● ᴧᴅᴅ ϻє ηᴏᴡ ʙᴧʙʏ ɪɴ ʏᴏᴜʀ ɢʀσᴜᴘs.
 ─────────────────────────
-❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ [˹ᴄʟɪᴄᴋ ʜєʀє˼](https://t.me/FONT_CHANNEL_01)
+❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ [˹ᴄʟɪᴄᴋ ʜєʀє˼](https://t.me/Harsh_Network)
 ❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ [˹ᴄʟɪᴄᴋ ʜєʀє˼](https://t.me/Exampurss)
-❖ ʙᴏᴛ σᴡηєʀ ➥ [˹ᴄʟɪᴄᴋ ʜєʀє˼](https://t.me/APNA_SYSTEM)
+❖ ʙᴏᴛ σᴡηєʀ ➥ [˹ᴄʟɪᴄᴋ ʜєʀє˼](https://t.me/HarshXSupport)
 ❖ ʀєᴘσ ʟɪηᴋ ➥ [ᴄʟɪᴄᴋ-ʜєʀє](t.me/Its_ydv_vikky)
 ─────────────────────────
 ❖ ᴄʟɪᴄᴋ ση ᴛʜє ʜєʟᴩ ʙυᴛᴛση ᴛσ ɢєᴛ ɪηғσ
